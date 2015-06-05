@@ -4,7 +4,7 @@ from bing_companies import bing_companies
 from scraping import beautiful_scrape
 
 
-bing_api_key = "v/LiByWjAtp4uvoukdPjywY1GPOHxCNAOLPzKKqM1gg="
+bing_api_key = "censored"
 with open("companies_denorm/microsample", "rb") as inf:
     companies = map(json.loads, inf)
 
